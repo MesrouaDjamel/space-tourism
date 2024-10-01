@@ -35,8 +35,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MesrouaDjamel/space-tourism)
-- Live Site URL: [Vercel](https://bookmark-landing-page-mesroua-djamels-projects.vercel.app/)
-- FrontEndMentor: [FrontEndMentor](https://www.frontendmentor.io/solutions/bookmark-landing-page-using-flexbox-vRsGaU6Wpz)
+- Live Site URL: [Vercel](https://space-tourism-mesroua-djamels-projects.vercel.app/)
+- FrontEndMentor: [FrontEndMentor](https://www.frontendmentor.io/solutions/multi-page-space-tourism-using-app-router-with-nextjs-z5vAdVs7eV)
 
 ## My process
 I started the project using npx create-next-app@latest we configured the project following the instructions (use typescript, use tailwindscss, use app router...).

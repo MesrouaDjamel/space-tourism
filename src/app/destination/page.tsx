@@ -83,7 +83,8 @@ const DestinationPage = () => {
               width={327}
               height={203}
               priority={true}
-              className="object-cover flex-1 my-8 lg:min-w-[30rem] md:my-10"
+              
+              className="object-cover flex-1 my-8 lg:min-w-[30rem] lg:min-h-[30rem] md:my-10"
             />
           </motion.div>
 
