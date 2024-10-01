@@ -9,8 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        blue900: "#0B0D17",
+        blue300: "#D0D6F9",
+      },
+
+      keyframes: {
+        entrance: {
+          "0%": { transform: "translateY(-100%)" },
+          "50%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(50%)" },
+        },
+      },
+
+      animation: {
+        entrance: "entrance 5s ease-in-out",
       },
     },
   },
