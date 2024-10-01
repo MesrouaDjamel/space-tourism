@@ -1,8 +1,7 @@
+import { barlow, barlowCondensed } from "@/app/_fonts/fonts";
 import Button from "./Button";
 import Header from "./Header";
-import { Barlow, Barlow_Condensed } from "next/font/google";
-const barlow = Barlow({ subsets: ["latin"], weight: "400" });
-const barlowCondensed = Barlow_Condensed({ subsets: ["latin"], weight: "400" });
+
 const Hero = () => {
   return (
     <section className="bg-[url(/assets/home/background-home-mobile.jpg)] md:bg-[url(/assets/home/background-home-tablet.jpg)] lg:bg-[url(/assets/home/background-home-desktop.jpg)] min-h-screen bg-bottom bg-cover">
@@ -36,7 +35,6 @@ const Hero = () => {
           >
             <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full flex items-center justify-center opacity-0 hover:opacity-100 transition-all ease-in-out duration-300 bg-white/10 h-[14.5rem] md:h-[22.5rem] w-[14.5rem] md:w-[22.5rem]"></span>
           </Button>
-         
         </div>
       </div>
     </section>

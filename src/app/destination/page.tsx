@@ -2,12 +2,11 @@
 import { useState } from "react";
 import { destinations } from "../_data/_data";
 import { motion } from "framer-motion";
-
 import Header from "@/components/Header";
 import Image from "next/image";
-import { Barlow_Condensed, Barlow } from "next/font/google";
-const barlowCondensed = Barlow_Condensed({ subsets: ["latin"], weight: "400" });
-const barlow = Barlow({ subsets: ["latin"], weight: "400" });
+import { barlow, barlowCondensed } from "../_fonts/fonts";
+
+
 const DestinationPage = () => {
   const [showDestination, setShowDestination] = useState("Moon");
 
@@ -84,7 +83,7 @@ const DestinationPage = () => {
               height={203}
               priority={true}
               
-              className="object-cover flex-1 my-8 lg:min-w-[30rem] lg:min-h-[30rem] md:my-10"
+              className="object-cover flex-1 my-8 lg:min-w-[30rem] lg:min-h-[30rem] w-auto h-auto md:my-10"
             />
           </motion.div>
 

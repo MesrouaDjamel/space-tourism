@@ -4,10 +4,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { technologies } from "../_data/_data";
 import Header from "@/components/Header";
-import { Barlow_Condensed, Barlow } from "next/font/google";
 import Image from "next/image";
-const barlowCondensed = Barlow_Condensed({ subsets: ["latin"], weight: "400" });
-const barlow = Barlow({ subsets: ["latin"], weight: "400" });
+import { barlow, barlowCondensed } from "../_fonts/fonts";
+
 
 const TechnologyPage = () => {
   const [showTechnology, setShowTechnology] = useState("Launch vehicle");

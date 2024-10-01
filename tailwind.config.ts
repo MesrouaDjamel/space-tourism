@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  mode: "jit",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,18 +12,6 @@ const config: Config = {
       colors: {
         blue900: "#0B0D17",
         blue300: "#D0D6F9",
-      },
-
-      keyframes: {
-        entrance: {
-          "0%": { transform: "translateY(-100%)" },
-          "50%": { transform: "translateY(0)" },
-          "100%": { transform: "translateY(50%)" },
-        },
-      },
-
-      animation: {
-        entrance: "entrance 5s ease-in-out",
       },
     },
   },

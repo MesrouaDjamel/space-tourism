@@ -3,10 +3,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { crews } from "../_data/_data";
 import Header from "@/components/Header";
-import { Barlow_Condensed, Barlow } from "next/font/google";
 import Image from "next/image";
-const barlowCondensed = Barlow_Condensed({ subsets: ["latin"], weight: "400" });
-const barlow = Barlow({ subsets: ["latin"], weight: "400" });
+import { barlow, barlowCondensed } from "../_fonts/fonts";
+
 
 const CrewPage = () => {
   const [showCrew, setShowCrew] = useState("Douglas Hurley");

@@ -1,8 +1,7 @@
-import type { Metadata } from "next";
-import {Bellefair} from "next/font/google";
+import { bellefair } from "./_fonts/fonts";
 import "./globals.css";
+import type { Metadata } from "next";
  
-const bellefair = Bellefair({ subsets: ["latin"], weight: "400" });
 
 
 export const metadata: Metadata = {
